@@ -1,0 +1,31 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+    height:100vh;
+  }
+  nav {
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    align-content: center;
+    background: radial-gradient(#7700ff,#b700ff);
+    padding: 30px;
+    color: white;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    align-content: center;
+    background: radial-gradient(#00a2ff,#0051ff);
+    padding: 20px;
+    color: white;
+  }
+  article input {
+    background: #0000004f;
+    box-sizing: border-box;
+  }
